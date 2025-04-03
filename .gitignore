@@ -1,28 +1,44 @@
-# Android Studio / IntelliJ IDEA
-   .gradle/
-   .idea/
-   *.iml
-   local.properties
-   *.hprof
-   *.orig
-   
-   # Build output
-   build/
-   outputs/
-   *.apk
-   *.dex
-   
-   # Gradle
-   /gradle/wrapper/gradle-wrapper.properties
-   
-   #NDK
-   *.so
-   *.o
-   
-   # Others
-   .DS_Store       # macOS
-   Thumbs.db       # Windows
-   
-   # Files that may contain sensitive information
-   keystore.jks
-   keystore.properties
+# Ignore Gradle build folders
+/build/
+.gradle/
+/app/build/
+
+# Ignore IntelliJ IDEA / Android Studio project files
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Ignore local configuration
+/local.properties
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore Log files
+*.log
+
+# Ignore Generated Java Bytecode
+*.class
+
+# Ignore Keystore Files (if you generate a signing key)
+*.keystore
+*.jks
+
+# Ignore APKs and Bundles
+*.apk
+*.aab
+
+# Ignore Test Coverage reports
+/coverage/
+
+# Ignore Firebase / Google Services (if applicable)
+google-services.json
+
+# Ignore Android NDK
+/.cxx/
+
+# Ignore Miscellaneous
+/captures/
+/outputs/
