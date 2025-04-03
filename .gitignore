@@ -1,0 +1,28 @@
+# Android Studio / IntelliJ IDEA
+   .gradle/
+   .idea/
+   *.iml
+   local.properties
+   *.hprof
+   *.orig
+   
+   # Build output
+   build/
+   outputs/
+   *.apk
+   *.dex
+   
+   # Gradle
+   /gradle/wrapper/gradle-wrapper.properties
+   
+   #NDK
+   *.so
+   *.o
+   
+   # Others
+   .DS_Store       # macOS
+   Thumbs.db       # Windows
+   
+   # Files that may contain sensitive information
+   keystore.jks
+   keystore.properties
