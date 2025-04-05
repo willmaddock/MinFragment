@@ -1,4 +1,4 @@
-package example.minfragment
+package edu.msudenver.cs3013.minfragment
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment

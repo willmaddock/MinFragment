@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "example.minfragment"
+    namespace = "edu.msudenver.cs3013.minfragment"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "example.minfragment"
+        applicationId = "edu.msudenver.cs3013.minfragment"
         minSdk = 24
         targetSdk = 35
         versionCode = 1

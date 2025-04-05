@@ -1,4 +1,4 @@
-package example.minfragment
+package edu.msudenver.cs3013.minfragment
 
 import org.junit.Test
 
